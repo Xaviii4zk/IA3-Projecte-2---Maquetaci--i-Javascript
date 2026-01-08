@@ -58,11 +58,6 @@ body {
     gap: 10px; 
 }
 
-.botones a {
-    text-decoration: none;
-
-}
-
 .Registro a {
     text-decoration: none;
     color: #2F80ED;
@@ -599,7 +594,7 @@ body {
     color: #2F80ED
 }
 
-.infoextra{
+.infoextra {
     display: flex;
     list-style: none;
     flex-direction: column;
@@ -612,6 +607,11 @@ body {
     letter-spacing: 2%;
     margin:0;
     margin-top: 20px;
+
+}
+
+.vermas {
+    color:#2F80ED;
 }
 
 .Compañia strong, .Explorar strong, .Terminos strong, .Ayuda strong {
@@ -646,8 +646,7 @@ body {
     justify-content: space-around;
     align-items: flex-start;
     margin-bottom: 80px;
-    gap: 50px;
-    margin-left: -50px;
+    gap: 20px;
 }
 
 .Viajar {
@@ -687,9 +686,6 @@ body {
     letter-spacing: 2%;
 }
 
-.Seemore {
-    color: #2F80ED;
-}
 
 footer {
     width: 100%;
