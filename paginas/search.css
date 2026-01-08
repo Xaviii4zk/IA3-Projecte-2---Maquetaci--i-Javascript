@@ -1,0 +1,1009 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'SF Pro Display',sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    width: 1440px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    padding: 0 20px;
+    background: linear-gradient(180deg, #2969BF 0%, #144E9D 100%);
+    box-sizing: border-box;
+    padding-bottom: 120px;
+
+}
+
+/* Lo que hace ese background es lo siguiente
+linear-gradient: crea un degradado lineal.
+
+180deg: indica la dirección del degradado.
+
+180° significa que va de arriba hacia abajo.
+
+#2969BF 0%: el color inicial del degradado, ubicado en la parte superior.
+
+#144E9D 100%: el color final del degradado, ubicado en la parte inferior. */
+
+.imagenavion {
+    width: 159px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.imagenavion-img {
+    width: 24px;
+    height: 24px;
+}
+
+.aviontexto {
+    font-family: 'SF Pro Display',sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    color: #FFFFFF;
+}
+
+.Listanav ul {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.imagenesnav {
+    display: flex;
+    gap: 20px;
+}
+
+.notification {
+    width: 24px;
+    height: 24px;
+    margin-top: 10px;
+}
+
+.fotoperfil {
+    width: 44px;
+    height: 44px;
+}
+
+/* EL POSITION RELATIVE LO TENGO QUE UTILITZAR DENTRO DEL DIV PADRE CUANDO QUIERO PONER UNA COSA EN UN SITIO QUE REALMENTE NO PODRIA PONER
+   EL POSITION ABSOLUTE LO PUEDO USAR CUANDO ESTOY EN UN DIV QUE NO TIENE ANCHO FIJO, ES UN ELEMENTO DECORATIVO, NO UN ELEMENTO DEL CONTENIDO
+   EL POSITION STATIC ES LO CONTRARIO A POSITION ABSOLUTE Y LO DEBO USAR EN CASO DE QUE O BIEN NO ME SIRVA POSITON ABSOLUTE O BIEN QUE: 
+   Si un elemento forma parte del contenido: static.
+   Si un elemento es decoración o debe pegarse en un sitio: absolute. */
+
+.formulario_vacaciones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1030px;
+    height: 64px;
+    margin: 0 auto;
+    opacity: 1;
+    gap: 10px;
+    border-radius: 8px;
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 2%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 37px 0px #00000026;
+    position: relative;
+    bottom: 30px;
+}
+
+.dondevas {
+    width: 260px;
+    height: 43px;
+    opacity: 1;
+    border-radius: 4px;
+    gap: 10px;   
+    background-color: #F2F2F2;
+    border: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+.fechainicial {
+    width: 170px;
+    height: 43px;
+    opacity: 1;
+    border-radius: 4px;
+    gap: 10px;
+    background-color: #F2F2F2;
+    border: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+.fechafinal {
+    width: 170px;
+    height: 43px;
+    opacity: 1;
+    border-radius: 4px;
+    gap: 10px;
+    background-color: #F2F2F2;
+    border: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+.Invitados {
+    width: 210px;
+    height: 43px;
+    opacity: 1;
+    border-radius: 4px;
+    gap: 10px;
+    background-color: #F2F2F2;
+    border: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+.Busqueda {
+    width: 148px;
+    height: 44px;
+    opacity: 1;
+    background-color: #2F80ED;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    gap: 10px;
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 2%;
+    cursor: pointer;
+
+}
+
+
+.localizacion, .Usuario, .calendario2, .calendario1 {
+    width: 20px;
+    height: 20px;
+}
+
+.Usuario  {
+    position: absolute;
+    left: 660px;
+}
+
+.localizacion {
+    position: absolute;
+    left: 30px;
+}
+
+.calendario1{
+    position: absolute;
+    left: 300px;  
+}
+
+.calendario2{
+    position: absolute;
+    left: 480px;
+}
+
+input::placeholder {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 2%;
+    color: #333333;
+}
+
+/* se utiliza :: porque no es un elemento directo del html es un "Pseudo-elemento" y no sería evitable sin esos dos puntos
+placeholder NO ES UN ELEMENTO REAL. */
+
+.izquierda {
+    width: 295px;
+    margin: 0 auto;
+}
+
+
+.busqueda {
+    width: 295px;
+    height: 119px;
+    background-color: #F2F2F2;
+    box-sizing: border-box;
+    padding-left: 15px;
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 5px;
+    border-radius: 6px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.busqueda h3 {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 1%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.propiedad {
+    width: 259px;
+    height: 44px;
+    border-radius: 4px;
+    gap: 10px;
+    border-width: 1px;
+    border: 1px solid #E0E0E0;
+    background: #FFFFFF;
+    border: none;
+}
+
+.propiedad::placeholder {
+    color: #4F4F4F;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 2%;
+    border-radius: 4px;
+    gap: 10px;
+    border-width: 1px;
+    padding-left: 40px;
+}
+
+.lupa {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 28px;
+    bottom: 37px;
+}
+
+.fuerte {
+    font-weight: 600;
+    font-style: Semibold;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    margin-bottom: 20px;
+}
+
+.presupuesto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 295px;
+    height: 293px;
+    border-radius: 6px;
+    border-width: 1px;
+    box-sizing: border-box;
+    border: 1px solid #E0E0E0;
+    padding-left: 10px;
+    margin-bottom: 25px;
+    gap: 14px;
+    padding-bottom: 4px;
+}
+
+.radio_contenedor img {
+    width: 32px;
+    height: 20px;
+}
+
+.presupuesto strong, .Rating strong, .Filtros strong {
+    width: 295px;
+    height: 55px;
+    border-width: 1px;
+    gap: 10px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 18px;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 1%;
+    color: #333333;
+    background-color: #F7F7F7;
+    box-sizing: border-box;
+    margin-left: -10px;
+}
+
+.presupuesto p, .Filtros p {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    vertical-align: middle;
+    color: #333333;
+    width: 223px;
+    height: 20px;
+    box-sizing: border-box;
+    margin-right: -20px;
+    padding-left: 5px;
+    padding-top: 3px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.presupuesto span, .Filtros span {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    text-align: right;
+    vertical-align: middle;
+    color: #333333;
+}
+
+.fila_presupuesto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.radio_contenedor {
+    display: flex;
+    align-items: center;
+    padding-top: 6px;
+}
+
+.radio_contenedor input[type="radio"] {
+    margin-left: 20px;
+}
+
+input[type="radio"] {
+    width: 32px;
+    height: 20px;
+}
+
+.Rating {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 295px;
+    height: 170px;
+    border-radius: 6px;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin-bottom: 25px;
+}
+
+.Rating_quality {
+    display: flex;
+    flex-direction: column;    
+    align-items: flex-start;   
+    width: 295px;
+    height: 170px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding-left: 2px;          
+    padding-top: 20px;
+}
+
+.Rating_stars_contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+.Rating_stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 46px;
+    border-radius: 5px;
+    border: 1px solid #E0E0E0;
+    gap: 5px;
+    margin-top: 8px;
+}
+
+
+.Rating_stars_texto, .Rating_stars span {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    vertical-align: middle;
+    color: #333333;
+}
+
+
+.Rating_stars img {
+    width: 18px;
+    height: 18px;
+}
+
+.Filtros {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 295px;
+    height: 287px;
+    border-radius: 6px;
+    border-width: 1px;
+    box-sizing: border-box;
+    border: 1px solid #E0E0E0;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    gap: 14px;
+}
+
+.popular{
+    margin-bottom: 4px;
+}
+
+.Cuadros_izquierda strong {
+}
+
+main {
+    display: flex;
+    margin: 0 auto;
+    width: 1440px;
+}
+
+
+.Parte_centro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    width: 100%;
+    padding-top: 20px;
+    margin: 0 auto;
+    margin-left: 40px;
+}
+
+.Parte_centro strong {
+    font-weight: 600;
+    font-style: Semibold;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 30px;
+}
+
+.botones{
+    display: flex;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 2%;
+    color: #4F4F4F;
+    width: 615px;
+    height: 40px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.botones span {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 2%;
+    color:#2F80ED;
+}
+
+.Picks {
+    width:  126px;
+    height: 40px;
+    border: 1px solid #2F80ED;
+    background: #2F80ED0D;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.Hotel {
+    width: 177px;
+    height: 40px;
+    border-width: 1px;
+    border: 1px solid #2F80ED;
+    background-color: #FFFFFF;
+}
+
+.Residencia {
+    width: 105px;
+    height: 40px;
+    border-width: 1px;
+    border: 1px solid #2F80ED;
+    background-color: #FFFFFF;
+}
+
+.Resorte {
+    width: 79px;
+    height: 40px;
+    border: 1px solid #2F80ED;
+    background-color: #FFFFFF;
+}
+
+.Espacio_compartido {
+    width: 128px;
+    height: 40px;
+    border: 1px solid #2F80ED;
+    background-color: #FFFFFF;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.parte_select {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 17px;
+    position: relative;
+    margin-right: 190px;
+}
+
+.Busqueda_hoteles {
+    width: 190px;
+    height: 48px;
+    padding-left: 10px;
+    border-width: 1px;
+    border-radius: 6px;
+    padding-top: 13px;
+}
+
+.botonesyselect {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.Sortby {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2%;
+    color: #828282;
+    position: absolute;
+    bottom:45px;
+    left: 15px;
+}
+
+.Cuadros {
+    width: 915px;
+    height: 240px;
+    border-radius: 5px;
+    border-width: 1px;
+    display: flex;
+    border: 1px solid #E0E0E0;
+    gap: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 25px;
+}
+
+.Cuadros_izquierda {
+    padding-bottom: -20px;
+}
+
+.Cuadros_derecha {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+}
+
+.Cuadros_derecha2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0;
+    padding-top: 190px;
+}
+
+.Cuadros_izquierda strong {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 1%;
+    vertical-align: middle;
+    width: 380px;
+    height: 32px;
+
+}
+
+.Cuadro_imagenes img {
+    width: 285px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.Estrellas_opiniones {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-top: 7px;
+    padding-bottom: 17px;
+}
+
+.Estrellas_opiniones img {
+    width: 80px;
+    height: 20px;
+}
+
+.Estrellas_opiniones p {
+    width: 120px;
+    height: 20px;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 2%;
+    vertical-align: middle;
+    color: #4F4F4F;
+
+}
+
+.Centrar_cuadros {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 562px;
+    height: 192px;
+    box-sizing: border-box;
+}
+
+.Cuadros_izquierda button {
+    width: 137px;
+    height: 40px;
+    border-radius: 6px;
+    gap: 10px;
+    background-color: #2F80ED;
+    color: #FFFFFF;
+    border: none;
+    
+}
+
+.pgris{
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 13px;
+    line-height: 140%;
+    letter-spacing: 2%;
+    vertical-align: middle;
+    color: #4F4F4F;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+.pgris2 {
+    width: 380px;
+    height: 36px;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 13px;
+    line-height: 140%;
+    letter-spacing: 2%;
+    vertical-align: middle;
+    color: #4F4F4F;
+    margin-bottom: 20px;
+}
+
+.subirp {
+    padding-bottom: 40px;
+}
+
+.projo, .pnaranja  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+    height: 26px;
+    border-radius: 6px;
+    background-color: #EB5757;
+    border: none;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    white-space: nowrap;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+
+.pnaranja {
+    width: 250px;
+    height: 26px;
+    border-radius: 6px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    gap: 10px;
+    margin-left: -60px;
+    background-color: #F2994A;
+    margin-bottom: 60px;
+}
+
+/* Con white-space: nowrap; evitamos que el texto se divida en varias líneas y se mantenga en una sola línea, incluso si es más largo que el contenedor. */
+
+.projo p, .pnaranja p {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 2%;
+}
+
+.pverde, .pverde2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 54px;
+    height: 26px;
+    border-radius: 6px;
+    gap: 10px;
+    background-color: #219653;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 30px;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+}
+
+.pverde2 {
+    margin-top: 155px;
+
+}
+
+.pyboton a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.pverde p, .pverde2 p {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 2%;
+}
+
+.rebajas_derecha {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 88px;
+    height: 24px;
+    gap: 8px;
+    padding-top: 2px;
+}
+
+.rebajas_derecha2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 88px;
+    height: 24px;
+    gap: 0px;
+    padding: 0;
+    margin: 0;
+}
+
+.rebajas_derecha p {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 1%;
+    text-align: right;
+    vertical-align: middle;
+    text-decoration: line-through;
+    color: #EB5757;
+}
+
+.rebajas_derecha strong,.rebajas_derecha2 strong {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 1%;
+    text-align: right;
+    vertical-align: middle;
+    color: #333333;
+    margin: 0;
+
+}
+
+.pderecha, .pnormal, .pnormal2 {
+    font-weight: 300;
+    font-style: Light;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    text-align: right;
+    vertical-align: middle;
+    color: #333333;
+    margin: 0;
+    padding-top: 0;
+}
+
+.pnormal2 {
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+}
+
+.pderecha {
+    width: 140px;
+    height: 17px;
+    margin-bottom: 55px;
+}
+
+.resultados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    margin-top: 10px;
+    margin-left: 375px;
+}
+
+.resultados button {
+    width: 156px;
+    height: 40px;
+    border-radius: 6px;
+    gap: 10px;
+    background: #2F80ED1A;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 2%;
+    color: #2F80ED; 
+    border: none;
+    cursor: pointer;
+}
+
+
+.aviso {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;  
+    width: 1240px;
+    height: 72px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: #FCEFCA;
+    font-family: 'SF Pro Display',sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 2%;
+    color: #333333;
+    padding-left: 25px;
+    gap: 25px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-right: 200px;
+}
+
+.aviso span {
+    color: #2F80ED;
+}
+
+.aviso,
+.info {
+    position: relative;
+    transform: translateX(-90px); /* Uso translate en vez de un negativo porque puedo dañar la estructura con un negativo y asi no me cargo la estructura */
+}
+
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1240px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px; 
+}
+
+.info h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #1B1F2D;
+}
+
+.viajar p {
+    width: 197px;
+    height: 40px;
+    padding-top: 10px;
+    margin-left: 25px;
+}
+
+.viajar span {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 2%;
+}
+
+.lista {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 20px 0 0;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    color:#4F4F4F;
+}
+
+.ver-mas {
+    color: #2F80ED;
+}
+
+footer {
+    width: 100%;
+    font-family: 'SF Pro Display',sans-serif;
+}
+
+.footer_contenedor {
+    max-width: 1440px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #EBEBEB;
+}
+
+.footer_contenedor img {
+    padding-right: 5px;
+}
+
+.footer_contenedor span {
+    margin-right: 180px;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0%;
+}

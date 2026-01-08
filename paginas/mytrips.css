@@ -1,0 +1,467 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'SF Pro Display',sans-serif;
+    background-color: #F4F4F4;
+}
+
+main {
+    width: 1440px;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1440px;
+    height: 68px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    padding: 0 20px;
+}
+
+
+.imagenavion {
+    width: 159px;
+    height: 24px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.imagenavion-img {
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+
+}
+
+.aviontexto {
+    font-family: 'SF Pro Display',sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    color: #1B1F2D;
+}
+
+.Listanav ul {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+}
+
+.imagenesnav {
+    display: flex;
+    gap: 16px;
+}
+
+.notification {
+    width: 24px;
+    height: 24px;
+    margin-top: 10px;
+}
+
+.fotoperfil {
+    width: 44px;
+    height: 44px;
+}
+
+.trips {
+    margin-top: 60px;
+    font-weight: 600;
+    font-style: Semibold;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 1%;
+    padding-bottom: 28px;
+    padding-left: 240px;
+}
+
+.Cuadros {
+    width: 1030px;
+    height: 240px;
+    border-radius: 5px;
+    border-width: 1px;
+    display: flex;
+    border: 1px solid #E0E0E0;
+    gap: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 25px;
+    margin-left: 240px;
+    margin-bottom: 360px;
+    background-color: #FFFFFF;
+}
+
+.Cuadros_izquierda {
+    padding-top: 4px;
+}
+
+.Cuadros_derecha2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 6px;
+    margin-left: 160px;
+    margin-top: 65px;
+}
+
+.Cuadros_izquierda strong {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 1%;
+    width: 380px;
+    height: 32px;
+    margin-bottom: 7px;
+    display: block;
+}
+
+.pverde {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 54px;
+    height: 26px;
+    border-radius: 6px;
+    gap: 10px;
+    background-color: #219653;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 30px;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+}
+
+.pderecha, .pnormal, .pnormal2 {
+    font-weight: 300;
+    font-style: Light;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    text-align: right;
+    vertical-align: middle;
+    color: #333333;
+    margin: 0;
+    padding-top: 0;
+}
+
+.Centrar_cuadros {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 562px;
+    height: 192px;
+    box-sizing: border-box;
+}
+
+.pderecha {
+    width: 140px;
+    height: 17px;
+    margin-bottom: 55px;
+}
+
+.pderecha {
+    font-weight: 300;
+    font-style: Light;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    text-align: right;
+    vertical-align: middle;
+    color: #333333;
+    margin: 0;
+    padding-top: 0;
+}
+
+.pgris, .projo {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1%;
+    color: #4f4f4f;
+}
+
+.projo {
+    color: #EB5757;
+}
+
+.Estrellas_opiniones {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.Estrellas_opiniones img {
+    width: 80px;
+    height: 20px;
+}
+
+.Estrellas_opiniones p {
+    width: 120px;
+    height: 20px;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 2%;
+    vertical-align: middle;
+    color: #4F4F4F;
+
+}
+
+.ps {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.rebajas_derecha {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 88px;
+    height: 24px;
+    gap: 8px;
+    padding-top: 2px;
+}
+
+.rebajas_derecha p {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 1%;
+    text-align: right;
+    vertical-align: middle;
+    text-decoration: line-through;
+    color: #EB5757;
+}
+
+.rebajas_derecha strong,.rebajas_derecha2 strong {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 1%;
+    text-align: right;
+    vertical-align: middle;
+    color: #333333;
+}
+
+.ver_detalles button {
+    margin-top: 10px;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 2%;
+    color: #FFFFFF;
+    width: 143px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #2F80ED;
+    border: none;
+    cursor: pointer;
+}
+
+.ver_detalles a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.Descriptivo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-bottom: 24px;
+}
+
+.Enjoy {
+    max-width: 504px;
+    font-weight: 600;
+    font-style: Semibold;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #181818;
+    height: 32px;
+    margin-bottom: -1px;
+}
+
+.Paises {
+    display: flex;
+    justify-content: center;
+}
+
+.Fotos {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+
+.Fotos img {
+    width: 295px;
+    height: 220px;
+    opacity: 1;
+    border-radius: 8px;
+}
+
+.Paises_textos {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding-bottom: 64px;
+}
+
+.Australia, .Japon, .NuevaZelanda, .Grecia, .Lakeside, .Recce, .Fireside, .Oculous {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 295px;
+    height: 47px;
+    opacity: 1;
+    gap: 6px;
+}
+
+.Australia strong, .Japon strong, .NuevaZelanda strong, .Grecia strong, .Lakeside strong, .Recce strong, .Fireside strong, .Oculous strong {
+    font-weight: 600;
+    font-style: Semibold;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #181818;
+}
+
+.Australia p, .Japon p, .NuevaZelanda p, .Grecia p, .Lakeside p, .Recce p, .Fireside p, .Oculous p {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    color: #181818;
+}
+
+.aviso {
+    display: flex;
+    align-items: center;
+    justify-content: start;  
+    width: 1240px;
+    height: 72px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: #FCEFCA;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 2%;
+    color: #333333;
+    padding-left: 25px;
+    gap: 25px;
+    box-sizing: border-box;
+
+}
+
+.aviso span {
+    color: #2F80ED;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1240px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px; 
+}
+
+.info h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #1B1F2D;
+}
+
+.viajar p {
+    width: 197px;
+    height: 40px;
+    padding-top: 10px;
+    margin-left: 25px;
+}
+
+.viajar span {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 2%;
+}
+
+.lista {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 20px 0 0;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    color:#4F4F4F;
+}
+
+.ver-mas {
+    color: #2F80ED;
+}
+
+footer {
+    width: 100%;
+    font-family: 'SF Pro Display',sans-serif;
+}
+
+.footer_contenedor {
+    max-width: 1440px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #EBEBEB;
+}
+
+.footer_contenedor img {
+    padding-right: 5px;
+}
+
+.footer_contenedor span {
+    margin-right: 180px;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0%;
+}

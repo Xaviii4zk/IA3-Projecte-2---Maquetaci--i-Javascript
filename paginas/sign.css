@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'SF Pro Display', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.encabezado {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 20px 40px;
+    font-size: 18px;
+    font-family: 'SF Pro Display', sans-serif; 
+    padding-left: 150px;
+}
+
+.avion {
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+}
+
+
+.contenedor_formulario {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.contenedor_formulario h2 {
+    font-family: 'SF Pro Display'sans-serif;
+    font-weight: 600;
+    font-style: Semibold;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #181818;
+}
+
+
+.formulario { 
+    text-align: left;
+}
+
+label {
+    font-family: 'SF Pro Display',sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 2%;
+    color: #181818;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    height: 44px;
+    opacity: 1;
+    gap: 10px;
+    background-color: #F2F2F2;
+    border: none;
+    margin-bottom: 20px;
+}
+
+#email , #password {
+    margin-top: 5px;
+}
+
+.grupo-password {
+    position: relative;
+}
+
+.grupo-password img {
+    position: absolute;
+    right: 10px;
+    bottom: 30px;
+    cursor: pointer;
+}
+
+.opciones label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.opciones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;    
+}
+
+.opciones input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    opacity: 1;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    border: 1px solid #BDBDBD;
+}
+
+.texto_opcion {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    vertical-align: middle;
+    color: #4F4F4F; 
+}
+
+.forgotpassword {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    text-align: right;
+    vertical-align: middle;
+    color: #2F80ED;
+}
+
+.opciones a {
+    text-decoration: none;
+    color: #2F80ED;
+}
+
+.contemail {
+    width: 100%;
+    background: #2F80ED;
+    color: #FFFFFF;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+
+.textolineal {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.textolineal span {
+    flex: 1;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 1px solid #E0E0E0
+}
+
+    /* Tambien puedo hacer     
+        
+        height: 2px;
+        width: 80px;
+
+    pero he ido entiendo porque usar flex 1 ya que lo que hace es que llena equitativamenmte los espacios vacios en el div y por eso hace esa raya que reparte los espacios en izquierda y derecha perfectos siendo iguales*/
+
+
+.contgoogle {
+    width: 100%;
+    height: 44px;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 2%;
+    background-color: #ffffff;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #E0E0E0;
+    color: #4F4F4F;
+    margin-bottom: 12px;
+    border-radius: 6px;
+}
+
+.contfacebook {
+    width: 100%;
+    height: 44px;
+    opacity: 1;
+    gap: 10px;
+    border-radius: 6px;
+    background-color: #475993;
+    margin-bottom: 15px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 2%;
+    color: #FFFFFF;
+    border: none;
+}
+
+.registrarse {
+    margin-top: 60px;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    text-align: center;
+    color:#4F4F4F;
+}
+
+.registrarse a {
+    color: #2F80ED;
+    text-decoration: none;
+}
+
+.contemail a {
+    color: #FFFFFF;
+    text-decoration: none;   
+}
