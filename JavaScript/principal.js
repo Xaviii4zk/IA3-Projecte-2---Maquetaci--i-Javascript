@@ -78,3 +78,34 @@ document.querySelector('.montaña').innerHTML = `
   <h2>${ofertes[2].titol}</h2>
   <p>${ofertes[2].descripcio}</p>
 `;
+
+import { hotelsPopulars } from "./recetas.js";
+
+
+const divHoteles = document.querySelector('.populares');
+texto2="";
+for (let i=0;i<hotelsPopulars.length;i++) {
+  texto2+= `<img src="${hotelsPopulars[i].imatgeUrl}">`
+}
+divHoteles.innerHTML=texto2;
+
+texto2="";
+document.querySelector('.Lakeside').innerHTML = `
+  <strong>${hotelsPopulars[0].nom}</strong>
+  <p>${hotelsPopulars[0].propietatsCount} properties </p>  `
+;
+document.querySelector('.Recce').innerHTML = `
+  <strong>${hotelsPopulars[1].nom}</strong>
+  <p>${hotelsPopulars[1].propietatsCount} properties </p> `
+;
+
+document.querySelector('.Fireside').innerHTML = `
+  <strong>${hotelsPopulars[2].nom}</strong>
+  <p>${hotelsPopulars[2].propietatsCount} properties </p>`
+;
+
+document.querySelector('.Oculous').innerHTML = `
+  <strong>${hotelsPopulars[3].nom}</strong>
+  <p>${hotelsPopulars[3].propietatsCount} properties </p> `
+;
+

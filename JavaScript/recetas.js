@@ -54,25 +54,25 @@ export const hotelsPopulars = [
   {
     id: "lakeside-motel-warefront",
     nom: "Lakeside Motel Warefront",
-    imatgeUrl: "/images/hotels/lakeside-motel.jpg",
+    imatgeUrl: "/imagenes-pagina-principal/Lakeside.png",
     propietatsCount: 2246,
   },
   {
     id: "rocce-graham-resort",
     nom: "Rocce Graham resort",
-    imatgeUrl: "/images/hotels/rocce-graham.jpg",
+    imatgeUrl: "/imagenes-pagina-principal/Recce.png",
     propietatsCount: 1278,
   },
   {
     id: "fireside-dinners",
     nom: "Fireside Dinners",
-    imatgeUrl: "/images/hotels/fireside-dinners.jpg",
+    imatgeUrl: "/imagenes-pagina-principal/Fireside.png",
     propietatsCount: 480,
   },
   {
     id: "oculous-inn-stay",
     nom: "Oculous Inn Stay",
-    imatgeUrl: "/images/hotels/oculous-inn.jpg",
+    imatgeUrl: "/imagenes-pagina-principal/Oculous.png",
     propietatsCount: 320,
   },
 ];
