@@ -136,6 +136,8 @@ export const searchResultsData = {
         "Live a little and relax with champagne\nReimagine a divine escape in the heart of the city with Parkside Conservation, parking and a late checkout. Only include Free cancellation applies",
       badge: "Book now and receive 15% off",
       pricePerNight: "$130",
+      oldPrice: "$150",
+      imatgeUrl: "/imagenes-pagina-principal/LakeMotel.png",
     },
     {
       hotelId: "julia-dens-resort",
@@ -145,6 +147,7 @@ export const searchResultsData = {
       description:
         "Live a little and relax with champagne\nReimagine a divine escape in the heart of the city with Parkside Conservation, parking and a late checkout. Only include Free cancellation applies",
       pricePerNight: "$240",
+      imatgeUrl: "/imagenes-pagina-principal/JuliaResorte.png",
     },
     {
       hotelId: "achmin-septer-hotel",
@@ -155,6 +158,7 @@ export const searchResultsData = {
         "Live a little and relax with champagne\nReimagine a divine escape in the heart of the city with Parkside Conservation, parking and a late checkout. Only include Free cancellation applies",
       badge: "Receive 30% discount on extra nights",
       pricePerNight: "$300",
+      imatgeUrl: "/imagenes-pagina-principal/Anghim.png",
     },
     {
       hotelId: "regindford-hotel",
@@ -164,6 +168,7 @@ export const searchResultsData = {
       description:
         "Live a little and relax with champagne\nReimagine a divine escape in the heart of the city with Parkside Conservation, parking and a late checkout. Only include Free cancellation applies",
       pricePerNight: "$120",
+      imatgeUrl: "/imagenes-pagina-principal/Marineford.png",
     },
     {
       hotelId: "shangri-open-house",
@@ -173,6 +178,7 @@ export const searchResultsData = {
       description:
         "Live a little and relax with champagne\nReimagine a divine escape in the heart of the city with Parkside Conservation, parking and a late checkout. Only include Free cancellation applies",
       pricePerNight: "$145",
+      imatgeUrl: "/imagenes-pagina-principal/Shanghai.png",
     },
     {
       hotelId: "ocean-waves-resort",
@@ -182,6 +188,7 @@ export const searchResultsData = {
       description:
         "Live a little and relax with champagne\nReimagine a divine escape in the heart of the city with Parkside Conservation, parking and a late checkout. Only include Free cancellation applies",
       pricePerNight: "$310",
+      imatgeUrl: "/imagenes-pagina-principal/Oceanwaves.png",
     },
     {
       hotelId: "main-city-frontier",
@@ -193,6 +200,7 @@ export const searchResultsData = {
       badge: "Receive 30% discount on extra nights",
       pricePerNight: "$190",
       oldPrice: "$200",
+      imatgeUrl: "/imagenes-pagina-principal/nostock.png",
     },
     {
       hotelId: "lakeside-motel-warefront",
@@ -203,6 +211,7 @@ export const searchResultsData = {
         "Live a little and relax with champagne\nReimagine a divine escape in the heart of the city with Parkside Conservation, parking and a late checkout. Only include Free cancellation applies",
       pricePerNight: "$300",
       oldPrice: "$200",
+      imatgeUrl: "/imagenes-pagina-principal/Lakeside2.png",
     },
   ],
 };

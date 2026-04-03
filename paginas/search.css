@@ -311,7 +311,7 @@ placeholder NO ES UN ELEMENTO REAL. */
     height: 20px;
 }
 
-.presupuesto strong, .Rating strong, .Filtros strong {
+.presupuesto strong, .Rating strong, .Filtros strong, .Filtros2 strong {
     width: 295px;
     height: 55px;
     border-width: 1px;
@@ -330,7 +330,7 @@ placeholder NO ES UN ELEMENTO REAL. */
     margin-left: -10px;
 }
 
-.presupuesto p, .Filtros p {
+.presupuesto p, .Filtros p, .Filtros2 p  {
     font-weight: 400;
     font-style: Regular;
     font-size: 14px;
@@ -354,7 +354,7 @@ input[type="checkbox"] {
     border-width: 1px;
 }
 
-.presupuesto span, .Filtros span {
+.presupuesto span, .Filtros span, .Filtros2 span {
     font-weight: 400;
     font-style: Regular;
     font-size: 14px;
@@ -446,7 +446,7 @@ input[type="radio"] {
     height: 18px;
 }
 
-.Filtros {
+.Filtros, .Filtros2 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
