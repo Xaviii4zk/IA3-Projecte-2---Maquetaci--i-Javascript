@@ -45,7 +45,6 @@ const contenedor2 = document.querySelector('.Filtros');
 
 texto2 = `<strong class="popular">Popular Filters</strong>`;
 
-// Popular Filters
 for (let i = 0; i < searchResultsData.filters.popularFilters.length; i++) {
   texto2 += `
     <div class="fila_presupuesto">
