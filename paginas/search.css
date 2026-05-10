@@ -706,7 +706,8 @@ main {
 
 .pgris2 {
     width: 380px;
-    height: 36px;
+    height: auto;
+    overflow: visible;
     font-weight: 400;
     font-style: Regular;
     font-size: 13px;
