@@ -4,449 +4,316 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IA3 Projecte 2 - Maquetació i Javascript</title>
+
     <link rel="stylesheet" href="search.css">
+
     <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
 </head>
+
 <body>
+
     <header>
+
         <nav class="navbar">
-            <div class="imagenavion"><img src="/imagenes-pagina-principal/avionblanco.png" alt="avion"><span class="aviontexto">my Dream Place</span></div>
+
+            <div class="imagenavion">
+
+                <img src="/imagenes-pagina-principal/avionblanco.png" alt="avion">
+
+                <span class="aviontexto">
+                    my Dream Place
+                </span>
+
+            </div>
+
             <div class="Listanav">
+
                 <ul>
+
                     <li>Home</li>
+
                     <li>Discover</li>
+
                     <li>Activities</li>
+
                     <li>About</li>
+
                     <li>Contact</li>
+
                 </ul>
+
             </div>
+
             <div class="imagenesnav">
+
                 <img src="/imagenes-pagina-principal/notification.png" alt="notification" class="notification">
+
                 <img src="/imagenes-pagina-principal/fotoperfil.png" alt="Foto de perfil" class="fotoperfil">
+
             </div>
+
         </nav>
-        </div>
+
         <div class="formulario_vacaciones">
-            <input type="text" placeholder="Melboune"   class="dondevas"><img src="/imagenes-pagina-principal/location.png" alt="localizacion"    class="localizacion">
-            <input type="text" placeholder="Mar 18, 2022"  class="fechainicial"><img src="/imagenes-pagina-principal/calendario.png" alt="calendario"    class="calendario1">
-            <input type="text"  placeholder="March 20, 2022"    class="fechafinal"><img src="/imagenes-pagina-principal/calendario.png" alt="calendario2" class="calendario2">
-            <input type="number"    placeholder="2 adult, 1 room"    class="Invitados"><img src="/imagenes-pagina-principal/user.png" alt="Usuario" class="Usuario">
-            <button class="Busqueda">Search</button>
+
+            <img src="/imagenes-pagina-principal/location.png" alt="localizacion" class="localizacion">
+
+            <img src="/imagenes-pagina-principal/calendario.png" alt="calendario" class="calendario1">
+
+            <img src="/imagenes-pagina-principal/calendario.png" alt="calendario2" class="calendario2">
+
+            <img src="/imagenes-pagina-principal/user.png" alt="Usuario" class="Usuario">
+
+            <button class="Busqueda">
+                Search
+            </button>
+
         </div>
+
     </header>
+
     <main>
+
         <div class="izquierda">
+
             <div class="busqueda">
-                <h3>Search by property name</h3>
+
+                <h3>
+                    Search by property name
+                </h3>
+
                 <input type="text" placeholder="eg. Beach westpalm" class="propiedad">
+
                 <img src="/imagenes-pagina-principal/lupa.png" alt="lupa" class="lupa">
+
             </div>
-            <h3 class="fuerte">Filter by</h3>
+
+            <h3 class="fuerte">
+                Filter by
+            </h3>
+
             <div class="presupuesto">
-                <strong class="popular">Your budget per day</strong>
-                <div class="fila_presupuesto">
-                    <input type="checkbox"><p>$ 0 - $ 200</p>
-                    <span>200</span>
-                </div>
-                <div class="fila_presupuesto">
-                    <input type="checkbox"><p>$ 200 - $ 500</p>
-                    <span>100</span>
-                </div>
-                <div class="fila_presupuesto">
-                    <input type="checkbox"><p>$ 500 - $ 1,000</p>
-                    <span>15</span>
-                </div>
-                <div class="fila_presupuesto">
-                    <input type="checkbox"><p>$ 1,000 - $ 2,000</p>
-                    <span>12</span>
-                </div>
-                <div class="fila_presupuesto">
-                    <input type="checkbox"><p>$ 2,000 - $ 5,000</p>
-                    <span>230</span>
-                </div>
-                <div class="fila_presupuesto">
-                    <div class="radio_contenedor">
-                    <p>Set your own Budget</p><img src="/imagenes-pagina-principal/boton.png" alt="boton">
-                    </div>
-                </div>
+
             </div>
+
             <div class="Rating">
-                <strong>Rating</strong>
+
+                <strong>
+                    Rating
+                </strong>
+
                 <div class="Rating_quality">
+
                     <div class="Rating_stars_texto">
-                        <p>Show only ratings more than</p>
+
+                        <p>
+                            Show only ratings more than
+                        </p>
+
                     </div>
+
                     <div class="Rating_stars_contenedor">
+
                         <div class="Rating_stars">
+
                             <span>1</span>
+
                             <img src="/imagenes-pagina-principal/estrella.png" alt="estrella">
+
                         </div>
+
                         <div class="Rating_stars">
+
                             <span>2</span>
+
                             <img src="/imagenes-pagina-principal/estrella.png" alt="estrella">
+
                         </div>
+
                         <div class="Rating_stars">
+
                             <span>3</span>
+
                             <img src="/imagenes-pagina-principal/estrella.png" alt="estrella">
+
                         </div>
+
                         <div class="Rating_stars">
+
                             <span>4</span>
+
                             <img src="/imagenes-pagina-principal/estrella.png" alt="estrella">
+
                         </div>
+
                         <div class="Rating_stars">
+
                             <span>5</span>
+
                             <img src="/imagenes-pagina-principal/estrella.png" alt="estrella">
+
                         </div>
+
                     </div>
-                </div>    
+
+                </div>
+
             </div>
+
             <div class="Filtros">
-                <strong class="popular">Popular Filters</strong>
-                <div class="fila_presupuesto">
-                    <input type="checkbox"><p>Free cancellation</p>
-                    <span>200</span>
-                </div>
-                <div class="fila_presupuesto">
-                    <input type="checkbox"><p>Spa</p>
-                    <span>100</span>
-                </div>
-                <div class="fila_presupuesto">
-                    <input type="checkbox"><p>Beach front</p>
-                    <span>15</span>
-                </div>
-                <div class="fila_presupuesto">
-                    <input type="checkbox"><p>Hot tub/ jacuzzi</p>
-                    <span>12</span>
-                </div>
-                <div class="fila_presupuesto">
-                    <input type="checkbox"><p>Book without credit card</p>
-                    <span>230</span>
-                </div>
-                <div class="fila_presupuesto">
-                    <input type="checkbox"><p>No prepayment</p>
-                    <span>12</span>
-                </div>
+
             </div>
-            <div class="Filtros">
-                <strong class="popular">Activities</strong>
-                <div class="fila_presupuesto">
-                    <input type="checkbox"><p>Fishing</p>
-                    <span>200</span>
-                </div>
-                <div class="fila_presupuesto">
-                    <input type="checkbox"><p>Hiking</p>
-                    <span>100</span>
-                </div>
-                <div class="fila_presupuesto">
-                    <input type="checkbox"><p>Beach</p>
-                    <span>15</span>
-                </div>
-                <div class="fila_presupuesto">
-                    <input type="checkbox"><p>Cycling</p>
-                    <span>12</span>
-                </div>
-                <div class="fila_presupuesto">
-                    <input type="checkbox"><p>Sauna</p>
-                    <span>230</span>
-                </div>
-                <div class="fila_presupuesto">
-                    <input type="checkbox"><p>Night lights</p>
-                    <span>12</span>
-                </div>
-            </div>     
+
+            <div class="Filtros2">
+
+            </div>
+
         </div>
-            <div class="Parte_centro">
-                <strong>Melbourne : 2,582 search results found</strong>
-                <div class="botonesyselect">
-                    <div class="botones">
-                        <button class="Picks"><span>Our top picks</span></button>
-                        <button class="Hotel">Hotel and apartments</button>
-                        <button class="Residencia">Residence</button>
-                        <button class="Resorte">Resort</button>
-                        <button class="Espacio_compartido">Shared Space</button>
-                    </div>
-                    <div class="parte_select">
-                        <label for="ordenar" class="Sortby">Sort by</label> 
-                        <select id="ordenar" class="Busqueda_hoteles">
-                            <option value="recommended">Recommended</option>
-                            <option value="recommended">Lowest price</option>
-                            <option value="recommended">Highest price</option>
-                            <option value="recommended">Trending</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="Cuadros">
-                    <div class="Cuadro_imagenes"><img src="/imagenes-pagina-principal/LakeMotel.png" alt="LakeSideMotel"></div>
-                    <div class="Centrar_cuadros">
-                        <div class="Cuadros_izquierda">
-                            <strong class="popular">Lakeside Motel Warefront</strong>
-                            <div class="Estrellas_opiniones">
-                                <img src="/imagenes-pagina-principal/estrellas.png" alt="Estrellas">
-                                <p>4.5 (1200 Reviews)</p>
-                            </div>
-                            <div class="pyboton">
-                                <p class="pgris">Live a little and celbrate with champagne</p>
-                                <p class="pgris2">Reats include a glass of French champagne, parking and a late checkout. Gym included. Flexible cancellation applies<p>
-                                <button><a href="product.html">See availability</a></button>
-                            </div>
-                        </div>
-                        <div class="Cuadros_derecha">
-                            <div class="subirp">
-                            <p class="projo">Book now and receive 15% off</p>
-                            </div>
-                            <div class="Cuadro_verde">
-                            <p class="pverde">5% off</p>
-                            <p class="pnormal">1 room 2 days</p>
-                            </div>
-                            <div class="rebajas_derecha">
-                                <p>$150</p><strong class="preciorebajado">$130</strong>
-                            </div>
-                            <div class="pderecha">
-                                <p>Includes taxes and fees</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="Cuadros">
-                    <div class="Cuadro_imagenes"><img src="/imagenes-pagina-principal/JuliaResorte.png" alt="JuliaDensResorte"></div>
-                    <div class="Centrar_cuadros">
-                        <div class="Cuadros_izquierda">
-                            <strong>Julia Dens Resort</strong>
-                            <div class="Estrellas_opiniones">
-                                <img src="/imagenes-pagina-principal/estrellas.png" alt="Estrellas">
-                                <p>4.5 (1200 Reviews)</p>
-                            </div>
-                            <div class="pyboton">
-                                <p class="pgris">Live a little and celbrate with champagne</p>
-                                <p class="pgris2">Reats include a glass of French champagne, parking and a late checkout. Gym included. Flexible cancellation applies<p>
-                                <button>See availability</button>
-                            </div>
-                        </div>
-                        <div class="Cuadros_derecha2">
-                            <div class="Cuadro_verde">
-                                <p class="pnormal2">1 room 2 days</p>
-                            </div>
-                            <div class="rebajas_derecha2">
-                                <strong class="preciorebajado">$240</strong>
-                            </div>
-                            <div class="pderecha">
-                                <p>Includes taxes and fees</p>
-                            </div>
-                        </div>
-                    </div>  
-                </div>
-                <div class="Cuadros">
-                    <div class="Cuadro_imagenes"><img src="/imagenes-pagina-principal/Anghim.png" alt="Anghim Scepter"></div>
-                    <div class="Centrar_cuadros">
-                        <div class="Cuadros_izquierda">
-                            <strong>Aghnim Scepter Hotel</strong>
-                            <div class="Estrellas_opiniones">
-                                <img src="/imagenes-pagina-principal/estrellas.png" alt="Estrellas">
-                                <p>4.5 (1200 Reviews)</p>
-                            </div>
-                            <div class="pyboton">
-                                <p class="pgris">Live a little and celbrate with champagne</p>
-                                <p class="pgris2">Reats include a glass of French champagne, parking and a late checkout. Gym included. Flexible cancellation applies<p>
-                                <button>See availability</button>
-                            </div>
-                        </div>
-                        <div class="Cuadros_derecha">
-                            <div class="subirp">
-                            <p class="pnaranja">Receive 30% discount on a restaurant</p>
-                            </div>
-                            <div class="Cuadro_verde">
-                                <p class="pnormal2">1 room 2 days</p>
-                            </div>
-                            <div class="rebajas_derecha2">
-                                <strong class="preciorebajado">$300</strong>
-                            </div>
-                            <div class="pderecha">
-                                <p>Includes taxes and fees</p>
-                            </div>
-                        </div>
-                    </div>  
-                </div>
-                <div class="Cuadros">
-                    <div class="Cuadro_imagenes"><img src="/imagenes-pagina-principal/Marineford.png" alt="Marineford Hotel"></div>
-                    <div class="Centrar_cuadros">
-                        <div class="Cuadros_izquierda">
-                            <strong>Marineford Hotel</strong>
-                            <div class="Estrellas_opiniones">
-                                <img src="/imagenes-pagina-principal/estrellas.png" alt="Estrellas">
-                                <p>4.5 (1200 Reviews)</p>
-                            </div>
-                            <div class="pyboton">
-                                <p class="pgris">Live a little and celbrate with champagne</p>
-                                <p class="pgris2">Reats include a glass of French champagne, parking and a late checkout. Gym included. Flexible cancellation applies<p>
-                                <button>See availability</button>
-                            </div>
-                        </div>
-                        <div class="Cuadros_derecha2">
-                            <div class="Cuadro_verde">
-                                <p class="pnormal2">1 room 2 days</p>
-                            </div>
-                            <div class="rebajas_derecha2">
-                                <strong class="preciorebajado">$120</strong>
-                            </div>
-                            <div class="pderecha">
-                                <p>Includes taxes and fees</p>
-                            </div>
-                        </div>
-                    </div>  
-                </div>
-                <div class="Cuadros">
-                    <div class="Cuadro_imagenes"><img src="/imagenes-pagina-principal/Shanghai.png" alt="Shanghai"></div>
-                    <div class="Centrar_cuadros">
-                        <div class="Cuadros_izquierda">
-                            <strong>Shanghai Open House</strong>
-                            <div class="Estrellas_opiniones">
-                                <img src="/imagenes-pagina-principal/estrellas.png" alt="Estrellas">
-                                <p>4.5 (1200 Reviews)</p>
-                            </div>
-                            <div class="pyboton">
-                                <p class="pgris">Live a little and celbrate with champagne</p>
-                                <p class="pgris2">Reats include a glass of French champagne, parking and a late checkout. Gym included. Flexible cancellation applies<p>
-                                <button>See availability</button>
-                            </div>
-                        </div>
-                        <div class="Cuadros_derecha2">
-                            <div class="Cuadro_verde">
-                                <p class="pnormal2">1 room 2 days</p>
-                            </div>
-                            <div class="rebajas_derecha2">
-                                <strong class="preciorebajado">$145</strong>
-                            </div>
-                            <div class="pderecha">
-                                <p>Includes taxes and fees</p>
-                            </div>
-                        </div>
-                    </div>  
-                </div>
-                <div class="Cuadros">
-                    <div class="Cuadro_imagenes"><img src="/imagenes-pagina-principal/Oceanwaves.png" alt="Ocean Waves Resort"></div>
-                    <div class="Centrar_cuadros">
-                        <div class="Cuadros_izquierda">
-                            <strong>Ocean Waves Resort</strong>
-                            <div class="Estrellas_opiniones">
-                                <img src="/imagenes-pagina-principal/estrellas.png" alt="Estrellas">
-                                <p>4.5 (1200 Reviews)</p>
-                            </div>
-                            <div class="pyboton">
-                                <p class="pgris">Live a little and celbrate with champagne</p>
-                                <p class="pgris2">Reats include a glass of French champagne, parking and a late checkout. Gym included. Flexible cancellation applies<p>
-                                <button>See availability</button>
-                            </div>
-                        </div>
-                        <div class="Cuadros_derecha2">
-                            <div class="Cuadro_verde">
-                                <p class="pnormal2">1 room 2 days</p>
-                            </div>
-                            <div class="rebajas_derecha2">
-                                <strong class="preciorebajado">$310</strong>
-                            </div>
-                            <div class="pderecha">
-                                <p>Includes taxes and fees</p>
-                            </div>
-                        </div>
-                    </div>  
-                </div>
-                <div class="Cuadros">
-                    <div class="Cuadro_imagenes"><img src="/imagenes-pagina-principal/nostock.png" alt="Fuera de Stock"></div>
-                </div>
-                <div class="Cuadros">
-                    <div class="Cuadro_imagenes"><img src="/imagenes-pagina-principal/Lakeside2.png" alt="LakeSide Motel Warefront"></div>
-                    <div class="Centrar_cuadros">
-                        <div class="Cuadros_izquierda">
-                            <strong>Lakeside Motel Warefront</strong>
-                            <div class="Estrellas_opiniones">
-                                <img src="/imagenes-pagina-principal/estrellas.png" alt="Estrellas">
-                                <p>4.5 (1200 Reviews)</p>
-                            </div>
-                            <div class="pyboton">
-                                <p class="pgris">Live a little and celbrate with champagne</p>
-                                <p class="pgris2">Reats include a glass of French champagne, parking and a late checkout. Gym included. Flexible cancellation applies<p>
-                                <button>See availability</button>
-                            </div>
-                        </div>
-                        <div class="Cuadros_derecha">
-                            <div class="Cuadro_verde">
-                            <p class="pverde2">15% off</p>
-                            <p class="pnormal">1 room 2 days</p>
-                            </div>
-                            <div class="rebajas_derecha">
-                                <p>$320</p><strong class="preciorebajado">$300</strong>
-                            </div>
-                            <div class="pderecha">
-                                <p>Includes taxes and fees</p>
-                            </div>
-                        </div>
-                    </div>  
-                </div>
-                <div class="resultados">
-                    <button>Load more results</button>
-                </div>
-            </div>
+
+        <div class="Parte_centro">
+
+        </div>
+
     </main>
-        <div class="aviso">
-            <img class="peligro" src="/imagenes-pagina-principal/exclamacion.png" alt="peligro">
-            <p>Check the latest COVID-19 restrictions before you travel.<span> Learn more</span></p>
+
+    <div class="aviso">
+
+        <img class="peligro" src="/imagenes-pagina-principal/exclamacion.png" alt="peligro">
+
+        <p>
+            Check the latest COVID-19 restrictions before you travel.
+            <span>
+                Learn more
+            </span>
+        </p>
+
+    </div>
+
+    <div class="info">
+
+        <div class="viajar">
+
+            <img src="/imagenes-pagina-principal/avion.png" alt="avion" class="avion">
+
+            <span>
+                my Dream Place
+            </span>
+
+            <p>
+                Your next goto companion for travel
+            </p>
+
         </div>
-        <div class="info">
 
-            <div class="viajar">
-                <img src="/imagenes-pagina-principal/avion.png" alt="avion" class="avion">
-                <span>my Dream Place</span>
-                <p>Your next goto companion for travel</p>
-            </div>
-            <div class="compania">
-                <h4>Company</h4>
-                <ul class="lista">
-                    <li>Jobs</li>
-                    <li>Newsroom</li>
-                    <li>Advertising</li>
-                    <li>Contact Us</li>
-                </ul>
-            </div>
+        <div class="compania">
 
-            <div class="explorar">
-                <h4>Explore</h4>
-                <ul class="lista">
-                    <li>Australia</li>
-                    <li>New Zealand</li>
-                    <li>United States America (USA)</li>
-                    <li>Greece</li>
-                    <li>Maldives</li>
-                    <li>Singapore</li>
-                    <li class="ver-mas">See more</li>
-                </ul>
-            </div>
+            <h4>
+                Company
+            </h4>
 
-            <div class="terminos">
-                <h4>Terms and Policies</h4>
-                <ul class="lista">
-                    <li>Privacy Policy</li>
-                    <li>Terms of use</li>
-                    <li>Accessibility</li>
-                    <li>Reward system policy</li>
-                </ul>
-            </div>
+            <ul class="lista">
 
-            <div class="ayuda">
-                <h4>Help</h4>
-                <ul class="lista">
-                    <li>Support</li>
-                    <li>Cancel your bookings</li>
-                    <li>Use coupon</li>
-                    <li>Refund policies</li>
-                    <li>International Travel Documents</li>
-                </ul>
-            </div>
+                <li>Jobs</li>
+
+                <li>Newsroom</li>
+
+                <li>Advertising</li>
+
+                <li>Contact Us</li>
+
+            </ul>
+
         </div>
-    </main>
+
+        <div class="explorar">
+
+            <h4>
+                Explore
+            </h4>
+
+            <ul class="lista">
+
+                <li>Australia</li>
+
+                <li>New Zealand</li>
+
+                <li>United States America (USA)</li>
+
+                <li>Greece</li>
+
+                <li>Maldives</li>
+
+                <li>Singapore</li>
+
+                <li class="ver-mas">
+                    See more
+                </li>
+
+            </ul>
+
+        </div>
+
+        <div class="terminos">
+
+            <h4>
+                Terms and Policies
+            </h4>
+
+            <ul class="lista">
+
+                <li>Privacy Policy</li>
+
+                <li>Terms of use</li>
+
+                <li>Accessibility</li>
+
+                <li>Reward system policy</li>
+
+            </ul>
+
+        </div>
+
+        <div class="ayuda">
+
+            <h4>
+                Help
+            </h4>
+
+            <ul class="lista">
+
+                <li>Support</li>
+
+                <li>Cancel your bookings</li>
+
+                <li>Use coupon</li>
+
+                <li>Refund policies</li>
+
+                <li>International Travel Documents</li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
     <footer>
+
         <div class="footer_contenedor">
-            <img src="/imagenes-pagina-principal/copyright.png" alt="copyright"><span>my Dream Place 2022</span>
+
+            <img src="/imagenes-pagina-principal/copyright.png" alt="copyright">
+
+            <span>
+                my Dream Place 2022
+            </span>
+
         </div>
+
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+    <script src="/JavaScript/search.js" type="module"></script>
+
 </body>
 </html>
